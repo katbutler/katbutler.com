@@ -215,6 +215,12 @@ header{
 	background-color:#b0402a;
 }
 
+.phone-carousel img{
+	height: 500px;
+	margin: 0 auto;
+	display: block;
+}
+
 
 /* 
  * Section Wrap 
