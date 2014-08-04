@@ -219,6 +219,7 @@ header{
 	height: 500px;
 	margin: 0 auto;
 	display: block;
+	min-width: 293px;
 }
 
 
@@ -388,6 +389,24 @@ blockquote small{
 	margin-top:5px;
 	display:block;
 
+}
+
+
+/*
+ * Quotes Override
+ */
+.cbp-qtrotator .cbp-qtcontent {
+	position: absolute;
+	min-height: 200px;
+	border-top: none;
+	border-bottom: none;
+	padding-top: 0;
+	margin: 0 auto;
+}
+
+.cbp-qtrotator {
+	/*width: inherit;*/
+	min-width: 293px;
 }
 
 /*
